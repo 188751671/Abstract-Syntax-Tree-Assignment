@@ -1,0 +1,142 @@
+body {
+      background: #eee;
+    }
+
+    table {
+       border-collapse: collapse;
+       background-image: url('images/grass.png');
+       margin: 0 auto;
+       margin-top: 20px;
+       border: solid 2px;
+    }
+
+    td {
+      border: solid 0px #aaa;
+      width: 32px;
+      height: 32px;
+      font-family: sans-serif;
+      font-size: calc(30px/4.0 + 1px);
+      text-align: center;
+    }
+
+    .none {
+      background-image: url('images/grass.png');
+    }
+
+    .rock0, .rock1, .rock2, .rock3, .rock4, .treea, .treeb {
+      background-repeat: no-repeat;
+    }
+
+    .rock0 {
+      background-image: url('images/rock0.png');
+    }
+
+    .rock1 {
+      background-image: url('images/rock1.png');
+    }
+
+    .rock2 {
+      background-image: url('images/rock2.png');
+    }
+
+    .rock3 {
+      background-image: url('images/rock3.png');
+    }
+
+    .rock4 {
+      background-image: url('images/rock4.png');
+    }
+
+    .treea {
+      background-image: url('images/treeA.png');
+    }
+
+    .treeb {
+      background-image: url('images/treeB.png');
+    }
+
+    .keyblue, .keyorange, .keyyellow {
+      background-repeat: no-repeat;
+    }
+
+    .keyblue {
+      background-image: url('images/keyblue.png');
+    }
+
+    .keyorange {
+      background-image: url('images/keyorange.png');
+    }
+
+    .keyyellow {
+      background-image: url('images/keyyellow.png');
+    }
+
+
+    .door.animated-gif{
+      width: 32px;
+      height: auto;
+    }
+    .door {
+      background-image: url('images/door.png');
+      background-size: auto 32px;
+      background-repeat: no-repeat;
+    }
+
+    .food {
+      background-repeat: no-repeat;
+      background-image: url('images/freddo.png');
+    }
+
+    .coincopper {
+       background-image: url('images/copper_coin_sheet.png');
+       background-repeat: no-repeat;
+       animation: anim 0.7s steps(8) infinite;
+    }
+    @keyframes anim {
+      100% { background-position: -256px; }
+    }
+
+    .coingold {
+      background-image: url('images/gold_coin.gif');
+      background-repeat: no-repeat;
+    }
+
+    .rock { background-repeat: no-repeat; }
+
+    .player {
+	    background-image: url('images/chanA.png');
+	    background-repeat: no-repeat;
+    }
+
+    .home {
+      background-image: url('images/spinningCube.gif');
+      background-size: auto 50px;
+      background-position: 52px 39px;
+    }
+
+    .status {
+      font-size: 15pt;
+      font-family: Arial, sans-serif;
+   }
+    .inventoryItem {
+      margin-right: 5px;
+    }
+
+    #outcome {
+      font-weight: 800;
+      font-size: 18pt;
+   }
+
+    #warning {
+     font-weight: 800;
+     font-size: 18pt;
+     transition: color 4s;
+     color:  #eee;
+   }
+
+    #energy {
+      height:15px;
+      width:250px;
+      display:inline-block;
+      background-color: rgb(40,200,0);
+    }

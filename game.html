@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Lambda Run!</title>
+  <link rel="stylesheet" href="frontend/style.css" />
+  <script src="config.js"></script>
+  <script src="frontend/game.js"></script>
+</head>
+
+<body onLoad="setup(objects);initPlayerPos(objects);">
+
+<div id='frame'>
+  <div class="status">Energy: <div id="energy"></div></div>
+  <div class="status">Score: <span id="score"></span></div>
+  <div class="status">Inventory: <span id="inventory"></span></div>
+  <table id="board"></table>
+  <br />
+  <div class="status" id="outcome"></div>
+  <div class="status" id="warning"></div>
+</div>
+<div class="door"></div>
+</body>
+
+</html>
